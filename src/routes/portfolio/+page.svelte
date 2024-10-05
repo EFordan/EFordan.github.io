@@ -92,10 +92,11 @@
 
 </script>
 
-<div class="bg-black py-10">
-	<div class="px-4 md:px-8">
-		<h1 class="text-4xl text-orange-400 text-center">Portfolio</h1>
-		<p class="text-center text-white mb-6">Here are some of my works, professional, freelance, and passion projects.</p>
+<div class="bg-black py-40">
+        <div class="px-4 md:px-8">
+		<h1 class="text-4xl text-orange-400 font-bold text-center">Projects</h1>
+		<p class="text-center text-white mb-6">Most of the time that I do were graphic posters, photo album, thumbnail, or 
+            anything else, here are some that you want to see.</p>
 	</div>
 	<div class="w-full max-w-4xl mx-auto">
 		<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
