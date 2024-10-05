@@ -99,7 +99,7 @@
             anything else, here are some that you want to see.</p>
 	</div>
 	<div class="w-full max-w-4xl mx-auto">
-		<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+		<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
 			<div class="flex flex-col gap-4">
 				{#each colImages1 as colImage}
 				<div class="w-full h-fit overflow-hidden rounded-lg">
