@@ -59,6 +59,11 @@
           On the multimedia side, most software I use when it comes to video editing, graphic designs, and digital arts are Adobe Photoshop, Adobe Animate, 
           Kinemaster for Mobile (Although I'm supposed to do it in Adobe Premiere to up my game, but yeah I'm more dwelling in Mobile Video Editing).
         </p>
+
+        <p>
+          At the end, I do want to accomplish my college life as a BSIT graduate from Gordon College with the amount of skill I earned from programming,
+          developing things, and many other things. That's all in order for me to get that diploma. 
+        </p>
       </div>
     </div>
   

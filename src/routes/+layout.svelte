@@ -12,10 +12,8 @@
   
   <slot></slot>
   
-  <!-- Navigation Bar with Orange Colors -->
   <nav class="bg-orange-400 p-4 fixed w-full top-0 z-50">
     <div class="container mx-auto flex flex-col items-center">
-      <!-- Image instead of Welcome Text -->
       <div class="mb-2">
         <img src="emf logo black.png" alt="EMF Portfolio Logo" class="h-8"> <!-- Adjust the height as needed -->
       </div>
@@ -42,9 +40,9 @@
       {#if menuOpen}
         <div class="bg-orange-400 text-black space-y-2 px-4 py-2 lg:hidden mt-2">
           <a href="/" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Home</a>
-          <a href="/about" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">About</a>
-          <a href="/portfolio" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Portfolio</a>
-          <a href="/contact" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Contact Me</a>
+          <a href="/about" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">About EMF</a>
+          <a href="/portfolio" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Projects</a>
+          <a href="/contact" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Contact</a>
         </div>
       {/if}
     </div>
