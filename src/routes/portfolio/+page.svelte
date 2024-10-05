@@ -30,6 +30,10 @@
 			alt: "fb vid",
 			src: "portfolio/Le-galleria.jpg",
 		},
+		{
+			alt: "Adobe XD Mobile Connection",
+			src: "portfolio/Adobe XD (2).png",
+		},
 	];
 
 	const colImages2 = [
@@ -50,12 +54,12 @@
 			src: "portfolio/stickergacha.jpg",
 		},
 		{
-			alt: "World Teachers Day",
-			src: "portfolio/happy world teachers day.jpg",
+			alt: "Blogpost Info Management",
+			src: "portfolio/blogpost info management.png",
 		},
         {
-			alt: "Tryout",
-			src: "portfolio/EMF album.jpg",
+			alt: "Website Intro to HCI",
+			src: "portfolio/website intro to hci.png",
 		},
         {
 			alt: "Siklab Soar High",
@@ -64,6 +68,14 @@
         {
 			alt: "Mr and Ms CCS",
 			src: "portfolio/CONGRATS CCS.jpg",
+		},
+		{
+			alt: "GC Library Management System",
+			src: "portfolio/fordan lms.PNG",
+		},
+		{
+			alt: "Adobe XD PC Connection",
+			src: "portfolio/Adobe XD (1).png",
 		},
 	];
 
@@ -77,17 +89,34 @@
 			src: "portfolio/33.jpg",
 		},
 		{
-			alt: "Banner",
-			src: "portfolio/EMF Banner.jpg",
+			alt: "OOP Delivery Management",
+			src: "portfolio/delivery management.png",
 		},
         {
-			alt: "1000 followers on Facebook",
-			src: "portfolio/1000.jpg",
+			alt: "Animation",
+			src: "portfolio/Scaffold3-Fordan.jpg",
+		},
+		{
+			alt: "sjc oc characters",
+			src: "portfolio/sjc oc characters.png",
 		},
         {
-			alt: "prismatic burst",
-			src: "portfolio/prismatic burst.jpg",
+			alt: "SJC School Brochure",
+			src: "portfolio/School Brochure - Module 4.png",
 		},
+		{
+			alt: "Siklab",
+			src: "portfolio/Videos (1).gif",
+		},
+		{
+			alt: "CCS Week",
+			src: "portfolio/Videos (2).gif",
+		},
+		{
+			alt: "Paglalayag",
+			src: "portfolio/Videos (3).gif",
+		},
+
 	];
 
 </script>
@@ -95,8 +124,9 @@
 <div class="bg-black py-40">
         <div class="px-4 md:px-8">
 		<h1 class="text-4xl text-orange-400 font-bold text-center">Projects</h1>
-		<p class="text-center text-white mb-6">Most of the time that I do were graphic posters, photo album, thumbnail, or 
-            anything else, here are some that you want to see.</p>
+		<p class="text-center text-white mb-6">Most of the projects I'm showing are mostly previous works in school from Junior High, Senior High, to College. 
+			Things like school events, conventions, infographs, assignments and many many more are here. Here's the following:
+		</p>
 	</div>
 	<div class="w-full max-w-4xl mx-auto">
 		<div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-2">

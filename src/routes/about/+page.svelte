@@ -50,7 +50,9 @@
         </p>
         
         <p>
-          One of my technical capabilities in the IT industry is being a front-end developer where this is the only one I'm mostly skilled for on the IT side.
+          One of my technical capabilities in the IT industry is being a front-end developer where this is the only one I'm mostly skilled for on the IT side. 
+          And I do enjoy doing it as a front-end developer when making a user-friendly website based on all designs need to be seen
+          because it fits through my experience and my description as a BSIT student.
         </p>
         
         <p>
