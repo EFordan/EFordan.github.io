@@ -20,10 +20,45 @@
   
       <!-- Navigation Link -->
       <div class="space-x-4 hidden lg:flex">
-        <a href="/" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Home</a>
-        <a href="/about" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">About EMF</a>
-        <a href="/portfolio" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Projects</a>
-        <a href="/contact" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Contact</a>
+        <a href="/" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          Home
+        </a>
+        <a href="/about" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          About
+        </a>
+        <a href="/portfolio" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          Portfolio
+        </a>
+        <a href="/contact" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          Contact
+        </a>
       </div>
-  </nav>
+
+      <div class="lg:hidden mt-2">
+      <button on:click={() => (menuOpen = !menuOpen)} class="text-black focus:outline-none">
+
+        <!-- Hamburger menu for Mobile -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    {#if menuOpen}
+      <div class="bg-orange-400 text-black space-y-2 px-4 py-2 lg:hidden mt-2">
+        <a href="/" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          Home
+        </a>
+        <a href="/about" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          About
+        </a>
+        <a href="/portfolio" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          Portfolio
+        </a>
+        <a href="/contact" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
+          Contact
+        </a>
+      </div>
+    {/if}
+</nav>
   
