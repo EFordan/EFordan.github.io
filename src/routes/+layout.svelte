@@ -18,15 +18,14 @@
         <img src="emf logo black.png" alt="EMF Portfolio Logo" class="h-8"> <!-- Adjust the height as needed -->
       </div>
   
-      <!-- Right side: Nav Links -->
+      <!-- Navigation Link -->
       <div class="space-x-4 hidden lg:flex">
         <a href="/" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Home</a>
         <a href="/about" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">About EMF</a>
         <a href="/portfolio" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Projects</a>
         <a href="/contact" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Contact</a>
       </div>
-  
-      <!-- Hamburger Menu (visible on mobile) -->
+
       <div class="lg:hidden mt-2">
         <button on:click={() => (menuOpen = !menuOpen)} class="text-black focus:outline-none">
           <!-- Icon for the hamburger menu -->
@@ -35,16 +34,5 @@
           </svg>
         </button>
       </div>
-  
-      <!-- Mobile Menu -->
-      {#if menuOpen}
-        <div class="bg-orange-400 text-black space-y-2 px-4 py-2 lg:hidden mt-2">
-          <a href="/" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Home</a>
-          <a href="/about" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">About EMF</a>
-          <a href="/portfolio" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Projects</a>
-          <a href="/contact" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">Contact</a>
-        </div>
-      {/if}
-    </div>
   </nav>
   
