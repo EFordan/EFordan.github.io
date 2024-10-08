@@ -27,7 +27,7 @@
           About
         </a>
         <a href="/portfolio" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
-          Portfolio
+          Projects
         </a>
         <a href="/contact" class="text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
           Contact
@@ -53,7 +53,7 @@
           About
         </a>
         <a href="/portfolio" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
-          Portfolio
+          Projects
         </a>
         <a href="/contact" class="block text-black hover:bg-orange-300 focus:ring-4 focus:ring-orange-400 font-semibold rounded-lg px-4 py-2 transition duration-200">
           Contact
